@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\David S. Ferreira\Documents\Programas Java\.metadata\.plugins\org.eclipse.jdt.core
+1620015528.index
+2314001565.index
+244545663.index
+167689318.index
+394807614.index
+2130283760.index
+1765356931.index
+2432167388.index
+1742912945.index
+2571663428.index
+507381013.index
+3891322186.index
+4186318866.index
+2390825092.index
+4276874251.index

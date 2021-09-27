@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Untitled&apos; to &apos;CalculoQuantidadeSalarioMinimo&apos;&#x0D;&#x0A;- Original project: &apos;LogProg_Aula3&apos;&#x0D;&#x0A;- Original element: &apos;Untitled&apos;&#x0D;&#x0A;- Renamed element: &apos;CalculoQuantidadeSalarioMinimo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Untitled&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Untitled.java[Untitled" matchStrategy="1" name="CalculoQuantidadeSalarioMinimo" qualified="false" references="true" similarDeclarations="false" stamp="1617833656427" textual="false" version="1.0"/>
+</session>

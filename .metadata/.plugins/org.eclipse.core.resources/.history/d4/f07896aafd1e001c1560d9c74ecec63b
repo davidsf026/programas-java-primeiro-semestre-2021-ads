@@ -1,0 +1,40 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class MascaraTelefoneComDDD {
+	public static void main(String[] args) {
+		//DECLARAÇÃO DE VARIÁVEIS
+		String fone = "";
+		
+		//ENTRADA DE DADOS
+		fone = mascaraFone();
+		
+		//SAÍDA DE DADOS
+		System.out.println(fone);
+	
+	}
+	public static String mascaraFone() {
+		String retorno = "";
+		boolean tudoCerto = false;
+		BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
+		
+		do {
+			try {
+				System.out.print("Digite o seu numero de telefone: ");
+				retorno = leitor.readLine();
+				
+				if(retorno.length() == 14) {
+					tudoCerto = true;
+				}	
+				
+				System.out.println(retorno.substring(0, 3));
+				
+			} catch (Exception e) {
+				tudoCerto = false;
+				
+			}
+		} while (tudoCerto == false);
+		
+		return retorno;		
+	}
+}

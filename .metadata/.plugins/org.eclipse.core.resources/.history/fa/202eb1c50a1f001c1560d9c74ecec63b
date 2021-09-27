@@ -1,0 +1,10 @@
+
+public class CalculoDVCPF {
+	public static void main(String[] args) {
+		//DECLARAÇÃO DE VARIÁVEIS
+		String CPF = "";
+		
+		//ENTRADA DE DADOS
+		
+	}
+}

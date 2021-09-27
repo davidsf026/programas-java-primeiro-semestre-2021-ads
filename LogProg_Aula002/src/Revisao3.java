@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Revisao3 {
+	public static void main (String [] args) {
+	
+		// DECLARAÇÃO DE VARIÁVEIS E OBJETOS
+		Scanner leitor = new Scanner(System.in);
+		double n1 = 0;
+		double n2 = 0;
+		double soma = 0;
+		double sub = 0;
+		double mult = 0;
+		double div = 0;
+		double rest = 0;
+		
+		// ENTRADA DE DADOS
+		System.out.print("Primeiro Número: ");
+		n1 = leitor.nextDouble();
+		
+		System.out.print("Segundo Número: ");
+		n2 = leitor.nextDouble();
+		
+		leitor.close();
+		
+		// PROCESSAMENTO
+		soma = n1 + n2;
+		sub = n1 - n2;
+		mult = n1 * n2;
+		div = n1 / n2;
+		rest = n1 % n2;
+		
+		// SAÍDA DE DADOS
+		System.out.println("Soma: " + soma);
+		System.out.println("Subtração: " + sub);
+		System.out.println("Multiplicação: " + mult);
+		System.out.println("Divisão: " + div);
+		System.out.println("Resto: " + rest);
+		
+	}
+}

@@ -1,0 +1,43 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class CalculoDVCPF {
+	public static void main(String[] args) {
+		//DECLARAÇÃO DE VARIÁVEIS
+		String CPF = "";
+		
+		//ENTRADA DE DADOS
+		CPF = lerCPF();
+		CPF = calculoDVCPF(CPF);
+		
+		
+		//SAÍDA DE DADOS
+		System.out.println(CPF);
+	}
+	public static String lerCPF() {
+		//DECLARAÇÃO DE VARIÁVEIS
+		BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
+		String retorno = "";
+		
+		//ENTRADA DE DADOS
+		try {
+			System.out.println("Infome os primeiros 9 dígitos do seu CPF (sem pontuação): ");
+			retorno = leitor.readLine();
+		} catch (Exception erro) {
+			System.out.println(erro);
+		}
+		
+		//SAÍDA DE DADOS
+		return retorno;
+	}
+	public static String calculoDVCPF(String cpf) {
+		//DECLARAÇÃO DE VARIÁVEIS
+		String retorno = "";
+		
+		//PROCESSAMENTO
+		retorno = "OI";
+		
+		//SAÍDA DE DADOS
+		return retorno;
+	}	
+}

@@ -1,0 +1,19 @@
+
+public class MascaraTelefoneComDDD {
+	public static void main(String[] args) {
+		//DECLARAÇÃO DE VARIÁVEIS
+		String fone = "";
+		boolean tudoCerto = false;
+		
+		//ENTRADA E PROCESSAMENTO DE DADOS
+		do {
+			try {
+								
+			} catch (Exception e) {
+				
+			}
+		} while (tudoCerto = false);
+		
+	}
+
+}
